@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_ne",["Variable"],[["_next",,[["HealthcareAPI.Logs.ExceptionHandlingMiddleware",,,,0,"File:HealtcareAPI/Logs/ExceptionHandlingMiddleware.cs:HealthcareAPI.Logs.ExceptionHandlingMiddleware._next","CSharpClass:HealthcareAPI.Logs.ExceptionHandlingMiddleware:_next"]]]]);

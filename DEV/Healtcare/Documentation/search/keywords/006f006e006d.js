@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("onm",["Function"],[["OnModelCreating",,[["HealthCare.Data.Context.HealthcareDbcontext",,,,0,"File:HealthCare.Data/Context/HealthcareDbcontext.cs:HealthCare.Data.Context.HealthcareDbcontext.OnModelCreating","CSharpClass:HealthCare.Data.Context.HealthcareDbcontext:OnModelCreating"]]]]);

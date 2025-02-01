@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_25",["Class"],[["_25012025_1",,[["HealthCare.Data.Migrations",,,,0,"File:HealthCare.Data/Migrations/20250125142310_25012025_1.cs:HealthCare.Data.Migrations._25012025_1","CSharpClass:HealthCare.Data.Migrations._25012025_1"]]]]);

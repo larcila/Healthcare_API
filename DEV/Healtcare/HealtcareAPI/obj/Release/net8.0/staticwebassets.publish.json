@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NYIGDB6lfsTAv0PHoB7zRF5ZjAWpM3ZDeM9MSJPqooc=",
+  "Source": "HealthcareAPI",
+  "BasePath": "_content/HealthcareAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("gen",["Function"],[["GenerateJwtToken",,[["HealthcareAPI.Controllers.AuthController",,,,0,"File:HealtcareAPI/Controllers/AuthController.cs:HealthcareAPI.Controllers.AuthController.GenerateJwtToken","CSharpClass:HealthcareAPI.Controllers.AuthController:GenerateJwtToken"]]]]);

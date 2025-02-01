@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dat",["Property"],[["Date",,[["HealtcareAPI.WeatherForecast",,,,0,"File:HealtcareAPI/WeatherForecast.cs:HealtcareAPI.WeatherForecast.Date","CSharpClass:HealtcareAPI.WeatherForecast:Date"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sum",["Property"],[["Summary",,[["HealtcareAPI.WeatherForecast",,,,0,"File:HealtcareAPI/WeatherForecast.cs:HealtcareAPI.WeatherForecast.Summary","CSharpClass:HealtcareAPI.WeatherForecast:Summary"]]]]);

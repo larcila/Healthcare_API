@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ind",["Function"],[["Index_On_Table",,[["HealthCare.Data.Context.HealthcareDbcontext",,,,0,"File:HealthCare.Data/Context/HealthcareDbcontext.cs:HealthCare.Data.Context.HealthcareDbcontext.Index_On_Table","CSharpClass:HealthCare.Data.Context.HealthcareDbcontext:Index_On_Table"]]]]);

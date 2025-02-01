@@ -1,0 +1,17 @@
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\Healthcare.BR.deps.json
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\Healthcare.BR.dll
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\Healthcare.BR.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\Healthcare.Common.dll
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\HealthCare.Data.dll
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\Healthcare.Common.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\bin\Release\net8.0\HealthCare.Data.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.csproj.AssemblyReference.cache
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.AssemblyInfoInputs.cache
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.AssemblyInfo.cs
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.csproj.CoreCompileInputs.cache
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthca.8ECB404F.Up2Date
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.dll
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\refint\Healthcare.BR.dll
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\Healthcare.BR.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\Healthcare.BR\obj\Release\net8.0\ref\Healthcare.BR.dll

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("aut",["Class"],[["AuthController",,[["HealthcareAPI.Controllers",,,,0,"File:HealtcareAPI/Controllers/AuthController.cs:HealthcareAPI.Controllers.AuthController","CSharpClass:HealthcareAPI.Controllers.AuthController"]]]]);
