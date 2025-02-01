@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pri",["Function"],[["Primery_Keys",,[["HealthCare.Data.Context.HealthcareDbcontext",,,,0,"File:HealthCare.Data/Context/HealthcareDbcontext.cs:HealthCare.Data.Context.HealthcareDbcontext.Primery_Keys","CSharpClass:HealthCare.Data.Context.HealthcareDbcontext:Primery_Keys"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("han",["Function"],[["HandleExceptionAsync",,[["HealthcareAPI.Logs.ExceptionHandlingMiddleware",,,,0,"File:HealtcareAPI/Logs/ExceptionHandlingMiddleware.cs:HealthcareAPI.Logs.ExceptionHandlingMiddleware.HandleExceptionAsync","CSharpClass:HealthcareAPI.Logs.ExceptionHandlingMiddleware:HandleExceptionAsync"]]]]);

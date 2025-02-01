@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7pcdDRqkFyU=",
+  "success": true,
+  "projectFilePath": "D:\\Leandro\\Personal\\API\\Angular\\Healtcare\\Healthcare.Common\\Healthcare.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("has",["Function"],[["HashPassword",,[["Healthcare.BR.BL.UserBL",,,,0,"File:Healthcare.BR/BL/UserBL.cs:Healthcare.BR.BL.UserBL.HashPassword","CSharpClass:Healthcare.BR.BL.UserBL:HashPassword"]]]]);

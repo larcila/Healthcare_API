@@ -1,0 +1,17 @@
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\HealthCare.Data.deps.json
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\HealthCare.Data.runtimeconfig.json
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\HealthCare.Data.dll
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\HealthCare.Data.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\Healthcare.Common.dll
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\bin\Release\net8.0\Healthcare.Common.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.csproj.AssemblyReference.cache
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.AssemblyInfoInputs.cache
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.AssemblyInfo.cs
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.csproj.CoreCompileInputs.cache
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCa.8C5228A3.Up2Date
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.dll
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\refint\HealthCare.Data.dll
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.pdb
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\HealthCare.Data.genruntimeconfig.cache
+D:\Leandro\Personal\API\Angular\Healtcare\HealthCare.Data\obj\Release\net8.0\ref\HealthCare.Data.dll

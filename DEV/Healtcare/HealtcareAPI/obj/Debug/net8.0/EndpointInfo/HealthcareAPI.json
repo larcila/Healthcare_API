@@ -1,0 +1,698 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Healthcare API",
+    "description": "API to manage patients and follow-ups in Healthcare.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Auth/Login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Autentication",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.LoginDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Follow_Up/patient/{idPatient}": {
+      "get": {
+        "tags": [
+          "Follow_Up"
+        ],
+        "summary": "Get follow-ups by patient",
+        "parameters": [
+          {
+            "name": "idPatient",
+            "in": "path",
+            "description": "idPatient",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Follow_Up/{id}": {
+      "get": {
+        "tags": [
+          "Follow_Up"
+        ],
+        "summary": "Get an specific follow-up",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identify of the follow-up",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Follow_Up"
+        ],
+        "summary": "Delete an existing follow-up",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Follow_Up_ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Follow_Up": {
+      "post": {
+        "tags": [
+          "Follow_Up"
+        ],
+        "summary": "Add new follow-up from patient in database",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.Follow_UpDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Follow_Up"
+        ],
+        "summary": "Modify or edit follow-up",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.Follow_UpDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Follow_UpDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Patient": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "summary": "List all patient",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Patient"
+        ],
+        "summary": "Add new patient in database",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.PatientDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Patient"
+        ],
+        "summary": "Modify or edit patient",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.PatientDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Patient/{id}": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "summary": "Get the patient by filtering by id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "is the unique ID in the table",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Patient"
+        ],
+        "summary": "Delete an existing patient",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Patient_ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role_By_User/user/{idUser}": {
+      "get": {
+        "tags": [
+          "Role_By_User"
+        ],
+        "summary": "Get rol by user",
+        "parameters": [
+          {
+            "name": "idUser",
+            "in": "path",
+            "description": "User unique id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role_By_User/{id}": {
+      "get": {
+        "tags": [
+          "Role_By_User"
+        ],
+        "summary": "Get an specific follow-up",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identify of the follow-up",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "List all User",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Add new User in database",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.UserDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Modify or edit User",
+        "requestBody": {
+          "description": "Healthcare.Common.DTO.UserDTO",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddUpdateUserDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Get the User by filtering by id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "is the unique ID in the table",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Delete an existing User",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "User_ID",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddOrUpdateRol": {
+        "type": "object",
+        "properties": {
+          "role_By_User_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "role_ID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddUpdateUserDTO": {
+        "required": [
+          "email",
+          "family_Name",
+          "first_Name",
+          "identification",
+          "user_Name"
+        ],
+        "type": "object",
+        "properties": {
+          "user_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "first_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "family_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "identification": {
+            "type": "string",
+            "nullable": true
+          },
+          "birth_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "user_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "registration_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modify_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "registration_User_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "update_User_ID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "role_By_Users": {
+            "$ref": "#/components/schemas/AddOrUpdateRol"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Follow_UpDTO": {
+        "required": [
+          "allergy",
+          "screening",
+          "symptom"
+        ],
+        "type": "object",
+        "properties": {
+          "follow_Up_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "allergy": {
+            "type": "string",
+            "nullable": true
+          },
+          "symptom": {
+            "type": "string",
+            "nullable": true
+          },
+          "screening": {
+            "type": "string",
+            "nullable": true
+          },
+          "patient_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "registration_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modify_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "registration_User_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "update_User_ID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDTO": {
+        "type": "object",
+        "properties": {
+          "user_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PatientDTO": {
+        "required": [
+          "email",
+          "family_Name",
+          "first_Name",
+          "identification"
+        ],
+        "type": "object",
+        "properties": {
+          "patient_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "first_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "family_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "identification": {
+            "type": "string",
+            "nullable": true
+          },
+          "birth_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone_Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "registration_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modify_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "registration_User_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "update_User_ID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Enter the token in the following format: Bearer {token}",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
