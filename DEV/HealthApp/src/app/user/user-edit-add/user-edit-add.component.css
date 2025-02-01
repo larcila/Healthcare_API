@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e4dcdc, #fad0c4);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+.mat-toolbar {
+  margin-bottom: 16px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.actions {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+  background: #71afd4;
+  color: white;
+  border-radius: 8px;
+}

@@ -1,0 +1,67 @@
+<app-menu></app-menu>
+
+<div class="container">
+
+  <mat-toolbar color="primary" class="toolbar">Users</mat-toolbar>
+  <div class="actions">
+    <button mat-raised-button color="primary" (click)="addUser()">Add</button>
+  </div>
+
+  <mat-form-field appearance="outline" class="filter">
+    <mat-label>Filter by</mat-label>
+    <input matInput [(ngModel)]="filterValue" placeholder="Name/User/Identification" (input)="applyFilter()">
+  </mat-form-field>
+
+  <div class="table-container">
+    <table mat-table [dataSource]="dataSource" class="custom-table mat-elevation-z8">
+      <!-- Name Column -->
+      <ng-container matColumnDef="first_Name">
+        <th mat-header-cell *matHeaderCellDef>First Name</th>
+        <td mat-cell *matCellDef="let user">{{ user.first_Name }}</td>
+      </ng-container>
+  
+      <!-- Family Name Column -->
+      <ng-container matColumnDef="family_Name">
+        <th mat-header-cell *matHeaderCellDef>Family Name</th>
+        <td mat-cell *matCellDef="let user">{{ user.family_Name }}</td>
+      </ng-container>
+  
+      <!-- User Column -->
+      <ng-container matColumnDef="user_Name">
+        <th mat-header-cell *matHeaderCellDef>User name</th>
+        <td mat-cell *matCellDef="let user">{{ user.user_Name }}</td>
+      </ng-container>
+  
+      <!-- Identification Column -->
+      <ng-container matColumnDef="identification">
+        <th mat-header-cell *matHeaderCellDef>Identification</th>
+        <td mat-cell *matCellDef="let user">{{ user.identification }}</td>
+      </ng-container>
+  
+      <!-- Email Column -->
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef>Email</th>
+        <td mat-cell *matCellDef="let user">{{ user.email }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="birth_Date">
+        <th mat-header-cell *matHeaderCellDef> Birth date </th>
+        <td mat-cell *matCellDef="let user"> {{ user.birth_Date | date }} </td>
+      </ng-container>
+  
+  
+      <!-- Actions Column -->
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>-</th>
+        <td mat-cell *matCellDef="let user">
+          <button mat-button color="accent" (click)="editUser(user)">Edit</button>
+          <button mat-button color="warn" (click)="deleteUser(user.user_ID)">Delete</button>
+        </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+  <mat-paginator [pageSize]="5" [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
